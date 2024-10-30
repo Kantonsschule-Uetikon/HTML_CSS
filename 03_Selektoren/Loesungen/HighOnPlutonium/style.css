@@ -1,0 +1,15 @@
+article {
+  height: 100px;
+  width: 400px;
+  border: 1px solid black;
+  margin-bottom: 16px;
+}
+.a {
+  background: #009030;
+}
+.b {
+  background: #8f4f02;
+}
+.c {
+  background: #5f10bf;
+}
