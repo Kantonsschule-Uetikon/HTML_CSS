@@ -4,3 +4,18 @@ article {
   border: 1px solid black;
   margin-bottom: 16px;
 }
+
+.box1 {
+  background: brown;
+  border: 10px solid black;
+}
+
+.box2 {
+  background: red;
+  border: 10px solid black;
+}
+
+.box3 {
+  background: green;
+  border: 10px solid black;
+}
