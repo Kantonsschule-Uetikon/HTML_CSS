@@ -1,9 +1,9 @@
 body {
-    background-color: #f82cd9;
+    background-color: #b0640c;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-}
+    font-family: "Comic Sans MS";
+    }
 
 header {
     background-color: #f2cd18;
@@ -25,6 +25,7 @@ nav ul li {
 nav ul li a {
     color: #a10808;
     text-decoration: underline;
+    text-decoration-color: #0e2ab9;
 }
 
 main {
@@ -45,7 +46,7 @@ footer {
     background-color: #b0640c;
     color: #0e2ab9;
     padding: 5px;
-    text-align: right;
+    text-align: left;
 }
 
 img {
