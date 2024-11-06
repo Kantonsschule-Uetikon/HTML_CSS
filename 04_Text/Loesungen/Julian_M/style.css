@@ -1,0 +1,52 @@
+.box {
+  width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+  padding: 8px;
+}
+
+.author {
+  font-style: italic;
+  color: black;
+}
+
+.box-1 {
+  font-style: ;
+  color: red;
+  
+}
+
+.box-2 {
+  font-size: 25px;
+  color: black;
+  text-align: right;
+}
+
+.box-3 {
+  font-style: oblique;
+  font-size: 40px;
+  color: green;
+  text-align: center;
+}
+ol {
+  background: lightcoral;
+  padding: 20px;
+  width: 400px;
+}
+.liste-1 li {
+  background: pink;
+  padding: 1px;
+}
+
+ul {
+  background: rgb(120, 120, 250);
+  padding: 20px;
+  width: 400px;
+}
+
+.box-4 {
+  background: lightblue;
+  margin-bottom: 5px;
+  
+
+}
