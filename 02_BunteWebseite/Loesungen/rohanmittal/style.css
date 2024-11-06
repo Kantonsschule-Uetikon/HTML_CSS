@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #f2cd18;
-    color: #b80de7;
+    background-color: #6d3500;
+    color: #ff00cc;
     padding: 5px;
 }
 
@@ -41,8 +41,8 @@ h2 {
 }
 
 footer {
-    background-color: #b0640c;
-    color: #0e2ab9;
+    background-color: #ff00bf;
+    color: #542200;
     padding: 5px;
     text-align: right;
 }
