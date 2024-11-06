@@ -1,0 +1,31 @@
+.box {
+  width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+  padding: 8px;
+}
+
+.author {
+  font-style: italic;
+  color: black;
+}
+
+.box-1 {
+  color: red;
+}
+
+.box-2 {
+  text-align: right;
+  font-size: 16px;
+
+}
+
+.box-3 {
+  font-family: "Comic Sans MS";
+  font-style: italic;
+  color: green;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
