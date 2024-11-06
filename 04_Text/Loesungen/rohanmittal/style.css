@@ -1,21 +1,23 @@
-article {
-  height: 100px;
+.box {
   width: 400px;
-  border: 1px solid black;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+  padding: 8px;
 }
 
-.box1 {
-  background: rgb(128, 62, 0);
-  border: 10px solid black;
+.author {
+  font-style: italic;
+  color: black;
 }
 
-.box2 {
-  background: red;
-  border: 10px solid black;
+.box-1 {
+  
 }
 
-.box3 {
-  background: green;
-  border: 10px solid black;
+.box-2 {
+
+}
+
+.box-3 {
+
 }
