@@ -1,0 +1,31 @@
+.heart-list {
+  list-style-type: "♥ ";
+  color: #ba2121
+}
+.box {
+  width: 400px;
+  padding: 2px;
+  background-color: #e7e2e2;
+  color: #ba2121;
+}
+.outer-box{
+  width: 400px;
+  padding: 15px;
+  padding-left: 50px;
+  background-color: #ec8e79;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.outer-box-blue{
+  width: 440px;
+  padding: 15px;
+  padding-left: 10px;
+  background-color: #87a9db;
+  display: inline-block;
+}
+.text{
+  padding: 2px;
+  background-color: #e7e2e2;
+  margin-bottom: 5px;
+  color:#0e50b3 ;
+}
