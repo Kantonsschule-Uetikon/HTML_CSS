@@ -1,0 +1,28 @@
+.box {
+  width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+  padding: 8px;
+}
+
+.author {
+  font-style: italic;
+  color: black;
+}
+
+.box-1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+}
+
+.box-2 {
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-3 {
+  font-family: cursive;
+  color: green;
+  text-align: center;
+  font-size: xxx-large;
+}
