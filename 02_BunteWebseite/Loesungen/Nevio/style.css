@@ -1,21 +1,20 @@
 body {
-    background-color: #b0640c;
     margin: 0;
     padding: 0;
-    font-family: "Comic Sans MS";
-    color:#2ee70dd6
-    }
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+}
 
 header {
-    background-color: #f2cd18;
+    background-color: green;
     color: #b80de7;
     padding: 5px;
 }
 
 nav ul {
     list-style: none;
-    margin: 5px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -26,7 +25,6 @@ nav ul li {
 nav ul li a {
     color: #a10808;
     text-decoration: underline;
-    text-decoration-color: #0e2ab9;
 }
 
 main {
@@ -47,7 +45,7 @@ footer {
     background-color: #b0640c;
     color: #0e2ab9;
     padding: 5px;
-    text-align: left;
+    text-align: right;
 }
 
 img {

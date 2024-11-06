@@ -1,0 +1,16 @@
+article {
+  height: 100px;
+  width: 400px;
+  border: 100px solid black;
+  margin-bottom: 16px;
+}
+
+.one {
+  background-color: rgb(212, 0, 255);
+}
+.two {
+  background-color: rgb(233, 122, 255);
+}
+.three {
+  background-color: rgb(247, 207, 255);
+}

@@ -1,0 +1,40 @@
+.heart-list {
+  list-style-type: "♥ ";
+  color: #ba2121
+}
+
+
+.geordnet {
+  color: #ba2121;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ungeordnet {
+  color: darkblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.geordnet-box {
+  width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(255, 158, 174);
+  padding: 8px;
+  background-color: rgb(255, 158, 174);
+}
+
+.ungeordnet-box {
+  width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid blue;
+  padding: 8px;
+  background-color: blue;
+}
+
+.geordnet li {
+  background-color: pink;
+}
+
+.ungeordnet li {
+  background-color: aqua;
+}
+

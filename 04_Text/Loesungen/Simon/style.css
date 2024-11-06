@@ -11,13 +11,17 @@
 }
 
 .box-1 {
-  
+ color: red; 
 }
 
 .box-2 {
-
+  text-align: right;
+  font-size: large;
+  font-weight: bold;
 }
 
 .box-3 {
-
+  color: green;
+  font-style: italic;
+  font-size: xx-large;
 }
