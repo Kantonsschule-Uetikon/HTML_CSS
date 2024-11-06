@@ -3,13 +3,25 @@
   color: #ba2121
 }
 
-.class1 {
-  background:rgb(255, 182, 182);
-  border: 50px solid #ff7c7c;
+ol {
+  background: #ff9999;
+  padding: 20px;
 }
 
-.class2 {
-  background: rgb(72, 142, 255);
-  border: 50px solid rgb(183, 208, 255);
-  
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
 }
