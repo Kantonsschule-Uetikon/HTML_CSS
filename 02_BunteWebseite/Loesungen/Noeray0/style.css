@@ -1,14 +1,13 @@
 body {
-    margin: 15;
+    margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #f2cd18;
-    color: #0015ff;
+    background-color: #f27618;
+    color: #670df7;
     padding: 5px;
-    text-align: center;
 }
 
 nav ul {
@@ -19,11 +18,11 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 nav ul li a {
-    color: #a10808;
+    color: #a108ff;
     text-decoration: underline;
 }
 
@@ -31,8 +30,6 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 5px;
-    border-style: dashed;
-    border-color:slateblue;
 }
 
 h1 {
@@ -43,14 +40,9 @@ h2 {
     font-size: 18px;
 }
 
-p {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-}
-
 footer {
-    background-color: #0cb081;
-    color: #000;
+    background-color: #b0640c;
+    color: #0e2ab9;
     padding: 5px;
     text-align: right;
 }
