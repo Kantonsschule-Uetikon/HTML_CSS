@@ -1,7 +1,7 @@
 .box {
   width: 400px;
   margin-bottom: 10px;
-  border: 1px solid green;
+  border: 1px solid rgb(21, 128, 0);
   padding: 8px;
 }
 
@@ -11,17 +11,21 @@
 }
 
 .box-1 {
+  border: 3px solid green;
   color: red;
+
 }
 
 .box-2 {
+  border: 3px solid green;
+  font-size: 20px;
   text-align: right;
-  font-size: large;
 }
 
 .box-3 {
-  text-align: center;
+  border: 3px solid green;
+  font-size: 25px;
   font-style: italic;
-  font-size: xx-large;
-  color:  green;
+  color: green;
+  text-align: center;
 }

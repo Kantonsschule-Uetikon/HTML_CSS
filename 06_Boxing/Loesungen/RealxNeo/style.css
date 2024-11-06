@@ -1,0 +1,27 @@
+article {
+    background-color: blue;
+    width: 800px;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    border-bottom-style: dotted;
+    border-bottom-color: green;
+    border-bottom-width: 30px;
+
+
+    border-left-style: solid;
+    border-left-color: red;
+    border-left-width: 30px;
+
+
+    border-right-style: dashed;
+    border-right-color: yellow;
+    border-right-width: 30px;
+
+
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 30px
+}

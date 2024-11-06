@@ -1,0 +1,26 @@
+.heart-list {
+  list-style-type: "♥ ";
+  color: #ba2121
+}
+
+.box {
+  width: 200px;
+  background-color: #f8b5b5;
+  padding-left: 0px;
+}
+
+.box-two {
+  background-color: #95eaf6;
+  margin-bottom: 5px;
+}
+
+.container-red {
+  background-color: #f75f5f;
+  padding: 5px 5px 5px 60px;
+}
+
+.container-blue {
+  background-color: #7a9dfc;
+  padding: 5px 5px 5px 0px;
+}
+
