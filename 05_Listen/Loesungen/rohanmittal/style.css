@@ -5,10 +5,11 @@
 
 .class1 {
   background:rgb(255, 182, 182);
-  border: #ff7c7c;
+  border: 50px solid #ff7c7c;
 }
 
 .class2 {
   background: rgb(72, 142, 255);
-  border: rgb(183, 208, 255);
+  border: 50px solid rgb(183, 208, 255);
+  
 }
