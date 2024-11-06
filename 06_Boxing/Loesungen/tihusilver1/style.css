@@ -1,0 +1,27 @@
+article {
+    width: 400px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+
+  border-bottom-style: dotted;
+  border-bottom-color: green;
+  border-bottom-width: 10px;
+
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 5px;
+
+  border-left-style: solid;
+  border-left-color: red;
+  border-left-width: 10px;
+
+  border-right-style: dashed;
+  border-right-color: orange;
+  border-right-width: 10px;
+
+  background-color: rgb(57, 20, 240);
+}

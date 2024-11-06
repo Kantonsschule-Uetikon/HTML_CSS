@@ -1,0 +1,27 @@
+.box {
+  width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+  padding: 8px;
+}
+
+.author {
+  font-style: italic;
+  color: black;
+}
+
+.box-1 {
+  color: red;
+}
+
+.box-2 {
+  text-align: right;
+  font-size: large;
+}
+
+.box-3 {
+  text-align: center;
+  font-style: italic;
+  font-size: xx-large;
+  color:  green;
+}

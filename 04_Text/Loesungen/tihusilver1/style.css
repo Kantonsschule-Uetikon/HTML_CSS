@@ -7,17 +7,20 @@
 
 .author {
   font-style: italic;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .box-1 {
-  
+  color: red;
 }
 
 .box-2 {
-
+  text-align: right;
 }
 
 .box-3 {
-
+  text-align: center;
+  color: green;
+  font-size: large;
 }
+

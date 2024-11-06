@@ -1,0 +1,31 @@
+.heart-list {
+  list-style-type: "♥ ";
+  color: #ba2121
+}
+
+.box-1 {
+  background-color: rgb(138, 75, 86);
+  width: 500px;
+  padding: 20px;
+  
+}
+.box-1 li{
+  color: rgb(232, 110, 130);
+  width: 400px;
+  background-color: rgb(168, 131, 170); 
+}
+
+
+.box-2 {
+  background-color: blue;
+  width: 500px;
+  padding: 20px;
+}
+
+.box-2 li {
+  color: rgb(131, 131, 183);
+  width: 400px;
+  background-color: rgb(104, 104, 128);
+  margin-bottom: 20px;
+
+}

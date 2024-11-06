@@ -1,0 +1,15 @@
+article {
+background-color: blue;
+padding: 10%;
+border: 10px;
+border-right-style: dashed;
+border-right-color: orange;
+border-bottom-style: dotted;
+border-bottom-color: green;
+border-bottom-width: 14px;
+border-left-style: solid;
+border-left-color: red;
+border-top-style: solid;
+border-top-color: black;
+border-top-width: 4px;
+}
