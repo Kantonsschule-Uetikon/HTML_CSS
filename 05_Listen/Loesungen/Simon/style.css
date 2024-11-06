@@ -1,0 +1,23 @@
+  .heart-list {
+  list-style-type: "♥ ";
+  color: #ba2121
+}
+
+.red_list {
+  background-color: lightcoral;
+  color: red;
+  padding: 20px;
+}
+
+.in_red_list {
+  background-color: rgb(240, 179, 179);
+}
+
+.blue_list {
+  background-color: rgb(0, 110, 255);
+  color: blue;
+}
+
+.in_blue_list {
+  background-color: lightblue;
+}

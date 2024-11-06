@@ -1,0 +1,21 @@
+article {
+  height: 100px;
+  width: 400px;
+  border: 6px solid violet;
+  margin-bottom: 16px;
+}
+
+.A {
+  background: green;
+  border: 6px solid rgb(255, 137, 255);
+}
+
+.B {
+  background: lime;
+  border: 5px solid violet;
+}
+
+.C {
+  background: greenyellow;
+  border: 7px solid rgb(222, 124, 222);
+}

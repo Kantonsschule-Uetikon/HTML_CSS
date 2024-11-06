@@ -1,0 +1,11 @@
+article {
+    background-color: blue;
+    text-align: center;
+    font-size: 42px;
+    border-width: 5px 7px 10px 12px;
+    border-style: solid dashed dotted inset;
+    border-color: black orange green red;
+    color: #fff;
+    padding: 40px;
+    font-weight: bold;
+}
