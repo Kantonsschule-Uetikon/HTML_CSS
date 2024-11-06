@@ -1,0 +1,22 @@
+article {
+    border-bottom-style: dotted;
+    border-top-style: double;
+    border-right-style: dashed;
+    border-left-style: solid;
+
+    border-right-color: orange;
+    border-top-color: black;
+    border-left-color: red;
+    border-bottom-color: green;
+
+    background-color: blue;
+
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+    line-height: 200px;
+
+    width: 400px;
+    height: 200px;
+}
