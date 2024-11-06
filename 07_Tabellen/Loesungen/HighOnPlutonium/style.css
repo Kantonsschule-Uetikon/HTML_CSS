@@ -1,0 +1,31 @@
+
+article {
+    width: 1100px;
+    margin: auto; /* macht den Inhalt mittig */
+    box-shadow: 0 0 20px;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: darkred;
+    padding: 20px 20px 20px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: maroon;
+    text-align: center;
+}
+
+table {
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    border-spacing: 5px 10px; /* Abstand zwischen Zellen in der Tabelle */
+}
+
+td {
+    padding: 5px 10px 5px 10px;
+    background-color: antiquewhite;
+    border-radius: 2px; /* Radius der Ecken - macht runde Ecken */
+    color: red;
+    height: 20px;
+}
