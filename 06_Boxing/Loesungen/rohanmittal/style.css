@@ -1,5 +1,7 @@
 article {
     font-size: x-large;
+    text-align: center;
+    height: 250px;
     color: white;
     background: blue;
     margin: 10px;
