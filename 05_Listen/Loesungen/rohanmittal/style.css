@@ -8,19 +8,19 @@ ol {
   padding: 20px;
 }
 
-ul {
+.ull {
   background: #3399ff;
   padding: 20px;
 }
 
-ol li {
+.olli {
   background: #ffe5e5;
   color: darkred;
   padding: 5px;
   margin-left: 35px;
 }
 
-ul li {
+.ulli {
   background: #cce5ff;
   color: darkblue;
   margin: 5px;

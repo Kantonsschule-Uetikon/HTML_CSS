@@ -1,0 +1,24 @@
+.heart-list {
+  list-style-type: "♥ ";
+  color: #ba2121
+}
+
+.fortnite {
+  background-color: pink;
+  padding: 30px;
+}
+
+.fortnite li{
+  background-color: rgb(255, 230, 234);
+}
+
+.fades {
+  background-color: lightblue;
+  padding: 30px
+}
+
+.fades li {
+  background-color: rgb(233, 249, 255);
+  margin-bottom: 5px;
+}
+

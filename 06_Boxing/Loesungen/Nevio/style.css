@@ -1,0 +1,19 @@
+.box {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    background-color: blue;
+    padding: 100px;
+    border-width: 10px;
+    border-bottom-style: dotted; 
+    border-bottom-color: green;
+    border-right-style: dashed;
+    border-right-color: orange;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: black;
+    border-left-style: solid;
+    border-left-color: red;
+    border-left-width: 10px;
+    
+}

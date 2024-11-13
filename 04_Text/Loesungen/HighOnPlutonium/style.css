@@ -1,0 +1,30 @@
+.box {
+  width: 400px;
+  margin-bottom: 10px;
+  border: 2px solid green;
+  padding: 20px;
+}
+
+.author {
+  font-style: italic;
+  color: black;
+}
+
+.box-1 {
+  color: crimson;
+
+}
+
+.box-2 {
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+  text-align: right;
+}
+
+.box-3 {
+  font-family: Algerian, serif;
+  font-style: italic;
+  font-size: xxx-large;
+  color: green;
+  text-align: center;
+}
