@@ -25,7 +25,10 @@ section {
 nav {
     background-color: rgb(161, 161, 161);
     width: 500px;
-    
+}
+
+ul {
+    list-style-type: none;
 }
 
 article {
