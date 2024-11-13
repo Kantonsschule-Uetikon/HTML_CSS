@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+article {
+    display: flex;
+    justify-content: center;
+}
+.Title {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+}
