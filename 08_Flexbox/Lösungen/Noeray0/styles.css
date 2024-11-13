@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+section {
+    display: flex;
+    width: 100% ;
+    justify-content: space-evenly;
+}
+
+nav {
+    display: flex;
+    background-color: darkgrey;
+    flex-grow: 1;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+}
