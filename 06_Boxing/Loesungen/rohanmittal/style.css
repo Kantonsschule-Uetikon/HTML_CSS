@@ -1,10 +1,10 @@
 article {
     font-size: 50px;
     text-align: center;
-    height: 250px;
     color: white;
     background: blue;
     margin: 10px;
+    padding: 100px;
     border-right-width: 5px;
     border-right-color: gold;
     border-right-style: dashed;
