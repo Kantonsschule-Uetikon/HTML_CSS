@@ -20,6 +20,7 @@ header {
 section {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 nav {
@@ -29,6 +30,7 @@ nav {
 
 ul {
     list-style-type: none;
+    font-size: small;
 }
 
 article {
