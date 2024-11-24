@@ -1,3 +1,5 @@
 Chat GPT für CMY zu RGB Umrechner verwendet um Mischung "wie auf Papier" zu erhalten.
 Chat GPT allgemein für Syntax verwendet, da ich zuvor nur Python Erfahrung hatte.
 Chat GPT für Adjektive.
+
+Alle Bilder selber gemacht.
