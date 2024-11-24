@@ -1,6 +1,11 @@
 // Startfarbe
 let color = { c: 0, m: 0, y: 0 };
 
+// Adjektive
+const words = [
+    "Frischer", "Fruchtiger", "Leckerer"
+];
+
 // Elemente
 const colorDisplay = document.getElementById("color-display");
 const blaubeereButton = document.getElementById("blaubeere-button");
@@ -8,6 +13,7 @@ const bananeButton = document.getElementById("banane-button");
 const erdbeereButton = document.getElementById("erdbeere-button"); 
 const resetButton = document.getElementById("reset-button");
 const becherImage = document.getElementById("becher");
+const shakeTitle = document.getElementById("shake-title");
 
 // Funktion zur Umrechnung von CMY zu RGB mit Hilfe von Chat GPT
 function cmyToRgb(c, m, y) {
@@ -24,7 +30,7 @@ function updateColor() {
     colorDisplay.style.backgroundColor = rgbColor;
 }
 
-// Button Funktionen
+// Button Listeners
 blaubeereButton.addEventListener("click", () => {
     color.c = Math.min(color.c + 0.1, 1);
     updateColor();
@@ -45,7 +51,7 @@ resetButton.addEventListener("click", () => {
     updateColor();
 });
 
-// Becher wechseln
+// Becher wechseln mit Listener
 becherImage.addEventListener("click", () => {
     if (becherImage.src.includes("Becher.png")) {
         becherImage.src = "Becher2.png";
@@ -54,3 +60,12 @@ becherImage.addEventListener("click", () => {
     }
 });
 
+
+// untertitel ändern funktion
+function changeTitle() {
+    const randomWord = words[Math.floor(Math.random() * words.length)];
+    shakeTitle.textContent = `${randomWord}-Shake`;
+}
+
+// Shake Listener
+shakeTitle.addEventListener("click", changeTitle);
