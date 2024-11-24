@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#color-display {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+#becher {
+    width: 100%;
+}
+
+
+.color-button {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    cursor: pointer;
+}
