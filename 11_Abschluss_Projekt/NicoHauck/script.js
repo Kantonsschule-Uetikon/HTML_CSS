@@ -26,17 +26,17 @@ function updateColor() {
 
 // Button Funktionen
 blaubeereButton.addEventListener("click", () => {
-    color.c = Math.min(color.c + 0.25, 1);
+    color.c = Math.min(color.c + 0.1, 1);
     updateColor();
 });
 
 bananeButton.addEventListener("click", () => {
-    color.y = Math.min(color.y + 0.25, 1);
+    color.y = Math.min(color.y + 0.1, 1);
     updateColor();
 });
 
 erdbeereButton.addEventListener("click", () => {
-    color.m = Math.min(color.m + 0.25, 1);
+    color.m = Math.min(color.m + 0.1, 1);
     updateColor();
 });
 
@@ -44,3 +44,13 @@ resetButton.addEventListener("click", () => {
     color = { c: 0, m: 0, y: 0 };
     updateColor();
 });
+
+// Becher wechseln
+becherImage.addEventListener("click", () => {
+    if (becherImage.src.includes("Becher.png")) {
+        becherImage.src = "Becher2.png";
+    } else {
+        becherImage.src = "Becher.png";
+    }
+});
+
