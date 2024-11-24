@@ -3,7 +3,11 @@ let color = { c: 0, m: 0, y: 0 };
 
 // Adjektive
 const words = [
-    "Frischer", "Fruchtiger", "Leckerer"
+    "Frischer", "Cremiger", "Erfrischender", "Leckerer", "Süßer", "Fruchtiger",
+    "Eisiger", "Zarter", "Exotischer", "Kühler", "Sahniger", "Delikater", "Intensiver",
+    "Spritziger", "Köstlicher", "Milder", "Schokoladiger", "Nussiger", "Luftiger", "Würziger",
+    "Süßlicher", "Energiegeladener", "Köstlicher", "Vollmundiger", "Verführerischer",
+    "Herber", "Genussvoller", "Smoother", "Zuckerfreier", "Veganer"
 ];
 
 // Elemente
