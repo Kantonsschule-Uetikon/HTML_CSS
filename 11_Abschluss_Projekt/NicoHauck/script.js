@@ -23,11 +23,18 @@ function cmyToRgb(c, m, y) {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
+// Funktion um Prozentzahlen anzupassen
+function updateColorInfo() {
+    document.getElementById("blaubeere-percentage").textContent = Math.round(color.c * 100) + "%";
+    document.getElementById("erdbeere-percentage").textContent = Math.round(color.m * 100) + "%";
+    document.getElementById("banane-percentage").textContent = Math.round(color.y * 100) + "%";
+}
 
 // Farbe updaten
 function updateColor() {
     const rgbColor = cmyToRgb(color.c, color.m, color.y);
     colorDisplay.style.backgroundColor = rgbColor;
+    updateColorInfo();
 }
 
 // Button Listeners
