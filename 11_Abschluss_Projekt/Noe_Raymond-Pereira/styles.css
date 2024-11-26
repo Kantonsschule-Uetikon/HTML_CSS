@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: wheat;
+    background-size: auto;
+    flex-basis: 80%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Sommer{
+    background-color: rgb(14, 136, 0);
+}
+
+.Herbst{
+    background-color: rgb(206, 103, 75);
+}
+
+
+.Winter{
+    background-color: rgb(95, 95, 182);
+}
+
+.Frühling{
+    background-color: rgb(92, 130, 55);
+}
+
+article{
+    flex-basis: 25%;
+    text-align: center;
+}
+
+#JahreszeitenText{
+    flex-basis: 80%;
+    background-color: wheat;
+}
+
+#textbodyalt{
+    background-image: url('Jahreszeiten.jpg');
+    background-size: contain;
+}
+
+p{
+    flex-grow: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
