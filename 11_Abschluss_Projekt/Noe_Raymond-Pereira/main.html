@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <title>Jahreszeiten</title>
+    <link href = "styles.css" rel = "stylesheet" type = "text/css" />
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <script src = "./script.js" defer></script>
+</head>
+
+<body id = "textbody">
+    <header>
+        <h1><a href = "alternative.html">Jahreszeiten</a></h1>
+    </header>
+
+    <section>
+        <article class = "Sommer" onmouseover = "HintergrundText_Sommer()"; onmouseleave = "resetbackground(); resetSommer()">
+            <h1><a href = "https://de.wikipedia.org/wiki/Sommer" id = "TitelSommer">Sommer</a></h1>
+            <p id = "Sommer_Text">...</p>
+        </article>
+
+        <article class = "Herbst" onmouseover = "HintergrundText_Herbst()"; onmouseleave = "resetbackground()";>
+            <h1><a href = "https://de.wikipedia.org/wiki/Herbst" id = "TitelHerbst">Herbst</a></h1>
+            <p id = "Herbst_Text">...</p>
+        </article>
+
+        <article class = "Winter" onmouseover = "HintergrundText_Winter()"; onmouseleave = "resetbackground()";>
+            <h1><a href = "https://de.wikipedia.org/wiki/Winter" id = "TitelWinter">Winter</a></h1>
+            <p id = "Winter_Text">...</p>
+        </article>
+
+        <article class = "Frühling" onmouseover = "HintergrundText_Frühling()"; onmouseleave = "resetbackground()";>
+            <h1><a href = "https://de.wikipedia.org/wiki/Frühling" id = "TitelFrühling">Frühling</a></h1>
+            <p id = "Frühling_Text">...</p>
+        </article>
+
+    </section>
+
+    <footer>
+        <p></p>
+    </footer>
+
+</body>
+
+</html>
