@@ -1,5 +1,13 @@
 let selected = []
-firewater = [fire, water]
+let pairs = ["fire,water","fire,stone","air,fire","air,stone","air,water","stone,water"]
+let symbolnames = ["Wasserdampf","Vulkan","Rauch","Sand","Welle","Fluss"]
+let symbols = ["💨","🌋","🚭","🏖️","🌊","🚣‍♀️"]
+
+activenumber = getRandomInt(0,5)
+document.getElementById("task").innerHTML = symbolnames[activenumber];
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
 function mouseOver(id)
 {
     document.getElementById(id).style.opacity = 0.8;
@@ -18,10 +26,13 @@ function clicked(id)
 }
 
 function buttonClicked()
-{   selected.sort();
+{   
+    selected.sort();
     if (selected.length == 2) {
-        if ((selected.toString()) == (fire,water)){
-            document.getElementById("result").textContent = "fick dich";
+        for (let i = 0; i < symbols.length; i++){
+            if (selected.join() === pairs[i])  {
+                document.getElementById("result").textContent = symbols[i];
+            }
         }
-    }
+    }        
 }
