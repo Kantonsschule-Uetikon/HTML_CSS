@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<script>
+	var i = -1;
 
+	const questions = [
+		"Frage 1: Laut der Schweizer Verfassung, was ist ein Recht? A:Meinungsfreiheit. B:Vertragsfreiheit. C:Urlaubsrecht. D:Abandonrecht.", 
+		"Frage 2: Laut der Schweizer Verfassung, welche Gruppe steht unter Schutz? A:Miderheiten. B:Kinder. C:Kranke. B:Risikogruppen.", 
+		"Frage 3: Laut der Schweizer Verfassung, wer ist souverän? A:Der Bund. B:die EU. C:die Gewerkschaften. D:die Kantone."
+	];
+	
+	const answers = [
+		1, 2, 4
+	];
+
+	function onClickButtonA() {
+		console.log("onClickButtonA");
+		checkAnswer(1);
+	}
+	
+	function onClickButtonB() {
+		console.log("onClickButtonB");
+		checkAnswer(2);
+	}
+	
+	function onClickButtonC() {
+		console.log("onClickButtonC");
+		checkAnswer(3);
+	}
+	
+	function onClickButtonD() {
+		console.log("onClickButtonD");
+		checkAnswer(4);
+	}
+	
+	function onClickWeiter() {
+		console.log("onClickWeiter");
+	}
+	
+	function checkAnswer(providedAnswer) {
+		console.log("checkAnswer " + providedAnswer);
+		if(answers[i] === providedAnswer) {
+			showCorrect();
+		} else {
+			showIncorrect();
+		}
+	}
+	
+	function showCorrect() {
+		console.log("showCorrect");
+		document.getElementById('correct').classList.remove("not-visible");
+		document.getElementById('correct').className += " visible";
+	}
+	
+	function showIncorrect() {
+		console.log("incorrect");
+		document.getElementById('incorrect').classList.remove("not-visible");
+		document.getElementById('incorrect').className += " visible";
+	}
+	
+	function hideCorrect() {
+		console.log("hideCorrect");
+		document.getElementById('correct').classList.remove("visible");
+		document.getElementById('correct').className += " not-visible";
+	}
+	
+	function hideIncorrect() {
+		console.log("incorrect");
+		document.getElementById('incorrect').classList.remove("visible");
+		document.getElementById('incorrect').className += " not-visible";
+	}
+	
+	function onClickWeiter() {
+		console.log("onClickWeiter i: " + i);
+		if(i == 2) {
+			console.log("onClickWeiter i = 2");
+			document.getElementById('question').textContent = "Erledigt";
+			document.getElementById('buttonA').disabled = true;
+			document.getElementById('buttonB').disabled = true;
+			document.getElementById('buttonC').disabled = true;
+			document.getElementById('buttonD').disabled = true;
+			document.getElementById('buttonOn').disabled = true;
+			hideCorrect();
+			hideIncorrect();
+			return;
+		}
+		i++;
+		showQuestion();
+		hideCorrect();
+		hideIncorrect();
+		console.log("after onClickWeiter i: " + i);
+	}
+	
+	function showQuestion() {
+		document.getElementById('question').textContent = questions[i];
+	}
+</script>
+<style>
+.button {
+  border: none;
+  color: blue;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.answerButton {
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonCorrect {background-color: #04AA6D;} /* Green */
+.buttonIncorrect {background-color: #FF0000;} /* Red */
+
+.visible {	
+  visibility: visible;
+}
+
+.not-visible {
+  visibility: hidden;
+}
+</style>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		Beantworte die Frage:
+		<div id="question"></div>
+		<table>
+			<tr>
+				<td>
+					<button id="buttonA" type="button" onclick="onClickButtonA()">a</button>			
+				</td>
+				<td>
+					<button id="buttonB" type="button" onclick="onClickButtonB()">b</button>				
+				</td>
+				<td>
+					<button id="buttonC" type="button" onclick="onClickButtonC()">c</button>
+				</td>
+				<td>
+					<button id="buttonD" type="button" onclick="onClickButtonD()">d</button>					
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<div id="correct" class="answerButton buttonCorrect not-visible">Richtig!</div>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>			
+				<div id="incorrect" class="answerButton buttonIncorrect not-visible">Falsch!</div>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<button id="buttonOn" type="button" class="button" onclick="onClickWeiter()">Weiter</button>	
+			</tr>
+		</table>
+
+	</body>
+</html>
