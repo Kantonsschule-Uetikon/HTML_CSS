@@ -5,23 +5,24 @@ body {
     background-color: white;
   }
   
-  .cuisine-container {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
-  
-p {
-    border: 2px solid #333;
+.cuisine-box {
+    border: 1px solid #000000;
     padding: 20px;
     width: 100px;
+    height: 20px;
     cursor: pointer;
-    background-color: white;
-    transition: background-color 0.3s;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+
+.cuisine-box:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    background-color: #ffe4b5;
   }
 
 #italian {
-    background: rgb(255, 230, 0);
+    background: rgb(255, 221, 0);
 }
 
 #mexican {
@@ -36,26 +37,21 @@ p {
     background: rgb(255, 38, 38);
 }
 
+#description {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .cuisines {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
   
-  .cuisine-box:hover {
-    background-color: #ddd;
-  }
-  
-  .image-container {
-    display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
   
   #cuisine-image {
     display: none;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
