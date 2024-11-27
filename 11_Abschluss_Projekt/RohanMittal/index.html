@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rezeptvorschläge</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body id="body">
+    <h1 id="heading">Wähle eine Küche!</h1>
+    <div class="cuisines">
+    <p class='cuisine-box' id="italian" onclick="showImage('italian')" onmouseover="changeBgColor('italian')" onmouseout="mouseOut('italian')">Italienisch</p>
+    <p class='cuisine-box' id="mexican" onclick="showImage('mexican')" onmouseover="changeBgColor('mexican')" onmouseout="mouseOut('mexican')">Mexikanisch</p>
+    <p class='cuisine-box' id="indian" onclick="showImage('indian')" onmouseover="changeBgColor('indian')" onmouseout="mouseOut('indian')">Indisch</p>
+    <p class='cuisine-box' id="spanish" onclick="showImage('spanish')" onmouseover="changeBgColor('spanish')" onmouseout="mouseOut('spanish')">Spanisch</p>
+    </div>
+    <img id="cuisine-image" src="" alt="Cuisine Image">
+    <p id="description"></p>
+</body>
+</html>
