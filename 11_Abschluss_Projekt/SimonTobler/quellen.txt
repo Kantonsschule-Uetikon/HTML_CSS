@@ -1,0 +1,25 @@
+https://www.w3schools.com/js/js_htmldom_events.asp
+https://www.w3schools.com/js/js_functions.asp
+https://www.w3schools.com/JSREF/prop_style_fontstyle.asp
+https://www.w3schools.com/jsref/prop_style_fontweight.asp
+https://www.w3schools.com/jsref/dom_obj_body.asp
+
+Gemini Prompts:
+Why doesn't this code work? function titlestyling (
+
+    document.getElementById("Title").style.fontStyle = "italic"; )
+        document.getElementById("Title").onclick = titlestyling;
+
+Why doesn't this function insert an image? 
+function images () {
+    const myImg = document.createElement('kos_1.png')};
+
+Why doesn't this html code react to the class ALL?   <div id="Introduction"; class="ALL" 
+
+        K-OS ist eine auf Anfänger ausgerichtete Linux Distribution. <br> K-OS bietet alle Funktionen, die von einem modernen Betriebssystem erwartet werden und 
+
+Könnte das Problem bei dieser Funktion liegen? 
+
+function secret () {
+
+    document.getElementsByClassName("ALL").style.fontStyle = "italic"; };
