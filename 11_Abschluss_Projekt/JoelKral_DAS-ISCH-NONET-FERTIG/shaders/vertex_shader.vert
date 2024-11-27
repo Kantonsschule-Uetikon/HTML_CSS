@@ -1,12 +1,16 @@
 #version 300 es
 
-in lowp vec4 aVertexPosition;
+in lowp vec4 position;
+out lowp vec4 vposition;
 
-uniform mat4 uMAGIC;
-uniform mat4 uModelViewMatrix;
-uniform mat4 uProjectionMatrix;
+uniform lowp float elapsed;
+uniform mat4 rot4Matrix;
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
 void main() {
-    gl_Position = uProjectionMatrix * uModelViewMatrix * aVertexPosition;
+    vec4 adj_position = rot4Matrix * position;
+    float dist = distance(adj_position,vec4(0,0,0,1.0));
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(adj_position.xyz*dist,3);
+    vposition = gl_Position;
 
-    gl_Position = uMAGIC * gl_Position;
 }
