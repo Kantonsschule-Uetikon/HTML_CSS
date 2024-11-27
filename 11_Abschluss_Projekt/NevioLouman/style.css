@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+.task {
+    font-size: 100px
+}
+.element {
+    width: 120;
+    height: 120;
+    font-size: 100;
+    padding: 10px;
+    opacity: 0.3;
+}
+.element-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+.result-container {
+    padding: 50px;
+
+}
+
+.button-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

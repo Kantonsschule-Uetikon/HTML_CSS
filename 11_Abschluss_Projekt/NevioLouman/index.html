@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <title>CreateStuff</title>
+  <script src="./script.js" defer></script>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<h1 class="task">Dampf</h1>
+<h2>Kombiniere 2 Elemente, um das geforderte zu bekommen</h2>
+<div class="element-container">
+    <div class="element" id="fire" onclick="clicked('fire')" onmouseover="mouseOver('fire')" onmouseout="mouseAway('fire')">🔥</div>
+    <div class="element" id="water" onclick="clicked('water')" onmouseover="mouseOver('water')" onmouseout="mouseAway('water')">🌊</div>
+    <div class="element" id="stone" onclick="clicked('stone')" onmouseover="mouseOver('stone')" onmouseout="mouseAway('stone')">🪨</div>
+    <div class="element" id="air" onclick="clicked('air')" onmouseover="mouseOver('air')" onmouseout="mouseAway('air')">💨</div>
+</div>
+<div class="button-container">
+    <p class="button" onclick="buttonClicked()">Kombinieren</p>
+</div>
+
+<div class="result-container">
+<div id="result">Hallo</div>
+</div>
+</body>
+
+</html>
