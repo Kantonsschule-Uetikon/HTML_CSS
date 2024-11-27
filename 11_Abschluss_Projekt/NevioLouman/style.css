@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+#task {
+    font-size: 80px;
+    background-color: rgb(94, 158, 179);
+    border-radius: 20px;
+}
+.element {
+    width: 120;
+    height: 120;
+    font-size: 100;
+    padding: 10px;
+    opacity: 0.3;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.element-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+.result-container {
+    padding: 50px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.button-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(94, 158, 179);
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.result {
+    width: 120;
+    height: 120;
+    font-size: 180;
+    display:flex;
+    justify-content:center;
+}
+

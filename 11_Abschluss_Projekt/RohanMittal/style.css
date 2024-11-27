@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+  }
+  
+.cuisine-box {
+    border: 1px solid #000000;
+    padding: 20px;
+    height: 20px;
+    margin: 10px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+
+.cuisine-box:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    background-color: #ffe4b5;
+  }
+
+#italian {
+    background: rgb(255, 221, 0);
+}
+
+#mexican {
+    background: rgb(255, 130, 88);
+}
+
+#indian {
+    background: rgb(255, 145, 0);
+}
+
+#spanish {
+    background: rgb(255, 38, 38);
+}
+
+#description {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuisines {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+  
+  
+  #cuisine-image {
+    display: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  

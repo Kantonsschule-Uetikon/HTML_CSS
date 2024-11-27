@@ -1,0 +1,4 @@
+https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial
+^- hauptsächlich das
+suscht halt kurzi searches im internet wo d antwort NICHT kopierte code isch
+https://stackoverflow.com/questions/53336342/how-to-include-shaders-as-external-files

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D20 Roller</title>
+</head>
+<body style="
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4a90e2, #550291);
+  color: white;">
+
+  <div style="text-align: center;">
+    <div id="dice" style="
+      width: 150px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;">
+      <img style="
+        width: 100%;
+        height: auto;
+        user-select: none;" 
+        src="https://cdn.pixabay.com/photo/2022/04/16/19/39/d20-7136921_1280.png" alt="D20 Dice" />
+    </div>
+    <p id="result" style="margin-top: 20px; font-size: 1.2rem;">Click the dice to roll!</p>
+  </div>
+
+  <script>
+    const dice = document.getElementById('dice');
+    const result = document.getElementById('result');
+    
+    dice.addEventListener('click', () => {
+      const roll = Math.floor(Math.random() * 20) + 1;
+      result.textContent = `You rolled a ${roll}`;
+      dice.style.transform = "scale(1.1)";
+      setTimeout(() => dice.style.transform = "scale(1)", 200);});
+  </script>
+</body>
+</html>

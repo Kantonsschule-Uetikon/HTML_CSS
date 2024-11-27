@@ -1,0 +1,6 @@
+https://www.w3schools.com/ - CSS und JS Code
+https://www.urlaubstracker.de/nationalgerichte-indien/ - indian.jgp
+https://www.tourlane.de/nordamerika/mexiko/nationalgerichte/ - mexican.jgp
+https://www.wajos.de/blogs/wissenswertes/typisch-spanische-kueche- spanish.avif
+https://www.chefkoch.de/magazin/artikel/2036,0/Chefkoch/Italienische-Rezepte-Die-leckere-italienische-Kueche.html - italian.jgp
+chatGPT - Idee für mögliche DOM-Änderungen

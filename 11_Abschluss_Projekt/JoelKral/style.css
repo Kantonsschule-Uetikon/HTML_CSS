@@ -1,0 +1,32 @@
+* {
+    background: #000000;
+    color: #ffffff;
+}
+
+footer {
+    width: 420px;
+}
+body {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    padding: 10px;
+}
+section {
+    padding:10px;
+    flex-direction: column;
+}
+
+.divcanvas {
+    padding: 4px;
+    padding-bottom: 0;
+    background: #505050;
+    aspect-ratio: 1;
+}
+#gl-canvas {
+    width: 500px;
+}
+
+.decoy {
+    padding: 10px;
+}
