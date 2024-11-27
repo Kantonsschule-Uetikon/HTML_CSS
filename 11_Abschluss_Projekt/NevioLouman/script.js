@@ -32,7 +32,15 @@ function buttonClicked()
         for (let i = 0; i < symbols.length; i++){
             if (selected.join() === pairs[i])  {
                 document.getElementById("result").textContent = symbols[i];
+                document.getElementById("erklarung").textContent = "Seite neu laden, um nochmals zu spielen";
+                if (i == activenumber) {
+                    document.querySelector(".button").innerHTML = "RICHTIG!"
+                }
+                else {
+                    document.querySelector(".button").innerHTML = "falsch 😥"
+                }
             }
         }
     }        
 }
+
