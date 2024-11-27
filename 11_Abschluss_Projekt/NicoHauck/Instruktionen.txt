@@ -1,0 +1,3 @@
+Anklicken des Titels => veränderung des Namens des Shakes
+Anklicken des Bechers => veränderung des Bechers
+Anklicken der Früchte => veränderung des Milchshakes

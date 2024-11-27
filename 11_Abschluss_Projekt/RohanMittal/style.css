@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+  }
+  
+  .cuisine-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+p {
+    border: 2px solid #333;
+    padding: 20px;
+    width: 100px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s;
+  }
+
+#italian {
+    background: rgb(255, 230, 0);
+}
+
+#mexican {
+    background: rgb(255, 130, 88);
+}
+
+#indian {
+    background: rgb(255, 145, 0);
+}
+
+#spanish {
+    background: rgb(255, 38, 38);
+}
+
+.cuisines {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+  .cuisine-box:hover {
+    background-color: #ddd;
+  }
+  
+  .image-container {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  #cuisine-image {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
