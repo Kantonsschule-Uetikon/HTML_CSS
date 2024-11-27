@@ -3,6 +3,7 @@ const computerScoreDisplay = document.getElementById("computer-score");
 const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
 const resetButton = document.getElementById("reset");
+const result = document.getElementById("ergebnis");
 
 let playerScore = 0;
 let computerScore = 0;
@@ -22,21 +23,20 @@ function getComputerChoice() {
 // Gewinnerlogik
 function getResult(player, computer) {
   if (player === computer) {
-    return "Unentschieden!";
+    result.textContent = "Unentschieden!";
   }
-  if (
+  else if (
     (player === "Schere" && computer === "Papier") ||
     (player === "Stein" && computer === "Schere") ||
     (player === "Papier" && computer === "Stein")
   ) {
-    playerScore++;
-    console.log("Spieler Gewonnen")
-    return "Du gewinnst!";
-    
+    playerScore++;  
+    result.textContent = "Du Gewinnst!";
   } else {
     computerScore++;
-    return "Computer gewinnt!";
+    result.textContent = "Computer Gewinnt!";
   }
+  
 }
 function playGame(playerChoice){
   const computerChoice = getComputerChoice();
@@ -49,12 +49,18 @@ function playGame(playerChoice){
 
   playerScoreDisplay.textContent = playerScore;
   computerScoreDisplay.textContent = computerScore;
-
-  alert(`Ergebnis: ${result}`);
-
 }
 // Event Listener für die Bilder
 document.getElementById("schere").addEventListener("click", () => playGame(choices[0]));
 document.getElementById("stein").addEventListener("click", () => playGame(choices[1]));
 document.getElementById("papier").addEventListener("click", () => playGame(choices[2]));
 
+resetButton.addEventListener("click", () => {
+  playerScore = 0;
+  computerScore = 0;
+  playerScoreDisplay.textContent = playerScore;
+  computerScoreDisplay.textContent = computerScore;
+  playerImage.style.display = "none";
+  computerImage.style.display = "none";
+  result.textContent = "";
+});

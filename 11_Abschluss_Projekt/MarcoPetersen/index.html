@@ -7,27 +7,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p> Wähle Schere, Stein oder Papier!</p>
+  <h2> Wähle Schere, Stein oder Papier!</h2>
   <div class="choices">
     <img src = "Schere.png" id="schere">
     <img src = "Stein.png" id="stein">
     <img src = "Papier.png" id="papier">
   </div>
-  <div id = "scoreboard">
-      <p>Deine Punkte: <span id = "player-score">0</span></p>
-      <p>Computer Punkte: <span id = "computer-score">0</span></p>
-  </div>
+  
   <div class="result">
     <div>
       <h3> Deine Wahl</h3>
       <img id="player-image" src="" style="display:none">
     </div>
+    <h1 id="ergebnis"></h1>
     <div>
       <h3>Computer Wahl</h3>
       <img id="computer-image" src="" alt="-" style="display:none;">
     </div>
   </div>
-  
+  <div id = "scoreboard">
+    <p>Deine Punkte: <span id = "player-score">0</span></p>
+    <p>Computer Punkte: <span id = "computer-score">0</span></p>
+</div>
+  <button id="reset">Zurücksetzen</button>
 
   <script src="script.js"></script>
 </body>

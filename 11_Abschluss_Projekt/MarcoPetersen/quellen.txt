@@ -1,1 +1,4 @@
-https://www.w3schools.com/js/js_htmldom_events.asp
+Die ganze Website
+https://www.w3schools.com/js/default.asp
+ChatGPT um Fehler zu beheben und für Syntax bei JS
+Bilder: https://www.istockphoto.com/de/vektor/bunte-handsymbol-set-gm1395632555-450673708
